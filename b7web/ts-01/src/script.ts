@@ -1,12 +1,14 @@
-let numero1 = document.getElementById("numero1") as HTMLInputElement
-let numero2 = document.getElementById("numero2") as HTMLInputElement
-let botao = document.getElementById("calcular") as HTMLElement
-let res = document.getElementById("resultado") as HTMLElement
+// Os types primitivos
 
-function calcular(n1: number, n2: number) {
-	return n1 + n2
-}
+let nome: string = 'Wellington'
 
-botao.addEventListener('click', function() {
-	res.innerHTML = calcular( +numero1.value, +numero2.value ).toString()
-})
+let idade: number = 20
+
+let programador: boolean = true
+
+console.log(typeof nome)
+console.log(typeof idade)
+console.log(typeof programador)
+
+// Type em Arrays
+

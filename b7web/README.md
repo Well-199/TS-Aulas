@@ -2,6 +2,6 @@
 
 |   |   |   |   |   |   |   |   |   |   |
 
-#### Onde parei: Os types primitivos
+#### Onde parei: Type em Arrays
 
 #### tsc src/script.ts --outDir public
