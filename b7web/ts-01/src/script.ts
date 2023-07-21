@@ -38,3 +38,18 @@ function firstLetterUpperCase (name: string) {
 console.log(firstLetterUpperCase('wellington'))
 
 // Usando types no retorno de uma função
+
+function firstLetterUpperCase2 (name: string): string {
+    let firstLetter = name.charAt(0).toLocaleUpperCase()
+    let nameWithFirstLetterUpperCase = `${firstLetter}${name.substring(1)}`
+    return nameWithFirstLetterUpperCase
+}
+const username: string = firstLetterUpperCase2('Wellington')
+
+
+function somar (n1: number, n2: number): number {
+    return n1 + n2
+}
+const resultado: number = somar(30, 45)
+
+// Contextual Typing em funções anônimas

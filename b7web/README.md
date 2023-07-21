@@ -2,6 +2,6 @@
 
 |   |   |   |   |   |   |   |   |   |   |
 
-#### Onde parei: Usando types no retorno de uma função
+#### Onde parei: Contextual Typing em funções anônimas
 
 #### tsc src/script.ts --outDir public
