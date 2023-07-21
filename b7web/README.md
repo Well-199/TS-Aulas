@@ -2,6 +2,6 @@
 
 |   |   |   |   |   |   |   |   |   |   |
 
-#### Onde parei: Type em Arrays
+#### Onde parei: Usando types no retorno de uma função
 
 #### tsc src/script.ts --outDir public
