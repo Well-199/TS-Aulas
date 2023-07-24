@@ -2,6 +2,6 @@
 
 |   |   |   |   |   |   |   |   |   |   |
 
-#### Onde parei: Contextual Typing em funções anônimas
+#### Onde parei: Union Types (múltiplos types)
 
 #### tsc src/script.ts --outDir public

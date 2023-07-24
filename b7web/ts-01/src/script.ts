@@ -68,4 +68,19 @@ list_names.forEach(( nome ) => {
     // console.log(nome.toUpperCase())
 })
 
-// Types em Objetos
+// Types em Objetos and Propriedades Opcionais
+
+type UserResumo = {
+    nome: string
+    idade?: number // idade é opcional
+}
+
+const resumo = (usuario: UserResumo) => {
+    return `Olá ${usuario.nome}, tudo bem? Voçe tem ${usuario.idade} anos`
+}
+
+resumo({nome: "Bonieky", idade: 40})
+
+// Union Types (múltiplos types)
+
+
