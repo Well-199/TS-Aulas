@@ -53,3 +53,19 @@ function somar (n1: number, n2: number): number {
 const resultado: number = somar(30, 45)
 
 // Contextual Typing em funções anônimas
+
+let list_names = ['bonieky', 'andre', 'cristina', 'marilia', 30]
+
+list_names.forEach(( nome ) => {
+    /*
+        mesmo não definindo tipo no array acima o typescript avisa 
+        que se trata de um array de strings e que o metodo toUpperCase() 
+        é um metodo de string que não pode ser usado em um calor tipo inteiro
+
+        -> Property 'toUpperCase' does not exist on type 'string | number'.
+        -> Property 'toUpperCase' does not exist on type 'number
+    */ 
+    // console.log(nome.toUpperCase())
+})
+
+// Types em Objetos
