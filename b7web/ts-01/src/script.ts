@@ -83,4 +83,48 @@ resumo({nome: "Bonieky", idade: 40})
 
 // Union Types (múltiplos types)
 
+let user_age: string | number | undefined = 35
 
+user_age = document.getElementById('resultado')?.innerHTML
+
+function mostrarIdade(idade: string | number) {
+    if(typeof idade==='string'){
+        console.log(idade.toUpperCase())
+    } else {
+        console.log(idade)
+    }
+}
+
+mostrarIdade(40)
+mostrarIdade("40")
+
+// Type e Interface: Como usar e diferenças
+
+type NomeCompleto = string | undefined
+
+let nomeCompleto: NomeCompleto = 'Bonieky Lacerda'
+
+// Casos de uso
+type Greeting = {
+    nome: string
+    idade: number
+}
+
+interface GreetingUser {
+    nome: string
+}
+
+interface GreetingUser {
+    idade: number
+}
+
+const saudacao = (usuario: GreetingUser) => {
+    return `Olá ${usuario.nome}, voçe tem ${usuario.idade} anos`
+}
+
+saudacao({
+    nome: 'Well',
+    idade: 40
+})
+
+// Type Assertions

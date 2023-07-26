@@ -2,6 +2,6 @@
 
 |   |   |   |   |   |   |   |   |   |   |
 
-#### Onde parei: Union Types (múltiplos types)
+#### Onde parei: Type Assertions
 
 #### tsc src/script.ts --outDir public
